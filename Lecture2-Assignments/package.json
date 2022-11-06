@@ -1,0 +1,27 @@
+{
+  "name": "lecture2",
+  "version": "1.0.0",
+  "description": "This README.md is created for Assignment 2.11: Creating a Git Repository and it has the answer to assignments of lecture2 from 2.3-2.11.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/DogukanDoganHelsinki/lecture2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/DogukanDoganHelsinki/lecture2/issues"
+  },
+  "homepage": "https://gitlab.com/DogukanDoganHelsinki/lecture2#readme",
+  "dependencies": {
+    "eslint": "^8.26.0",
+    "inquirer": "^9.1.4",
+    "node-polyglot": "^2.4.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
